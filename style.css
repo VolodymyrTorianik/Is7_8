@@ -1,0 +1,107 @@
+* {
+font-size: 18px; 
+}
+
+header, footer {
+    background-image:url(./images/bacground-img.png);
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+nav {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+nav a {
+    font-size: 30px;
+    padding: 0px 50px;
+    
+}
+
+
+a[target] {
+    text-decoration: none;
+}
+
+a[href="https://www.linkedin.com/"] {
+    background-color: bisque;
+}
+
+a[href^="https"] {
+
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: red;    
+}
+
+.myvideo {
+    width: 300px;
+}
+
+.stl > span {
+    color: red;
+}
+
+img + p {
+    background-color: beige;
+}
+
+#frst, #sknd, #thrd {
+    border: 1px solid rgb(143, 157, 179);
+    padding: 10px;
+    border-top-style: none;
+}
+
+p ~ strong {
+    color: green;
+}
+
+
+#frst ol {
+    background-color: aqua;
+    width: 400px;
+}
+
+.spisok li {
+
+    list-style-type: circle;
+}
+
+#sknd ul {
+
+    width: 400px;
+}
+
+.podspisok-grey {
+
+    background-color: rgb(143, 141, 141);
+
+}
+
+.podspisok-yellow {
+
+    background-color: rgb(203, 240, 117);
+}
+
+
+.spisok-2 {
+
+    list-style-type: none;
+
+}
+
+
+.spisok-2 li {
+
+    background-image: url(./images/galka.png);
+    background-size: 1.1em;
+    padding-left: 2em;
+    margin: 10px 0px;
+    background-repeat: no-repeat;
+}
